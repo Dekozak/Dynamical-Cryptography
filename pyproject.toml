@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-synthesis"
+version = "0.1.0"
+description = "The structure-versus-randomness dichotomy as the common root of additive number theory, big-data machine learning, and cryptography: LWE, lattice reduction, character sums, randomness extractors, and expander hashing, made computational."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+keywords = ["cryptography", "lattices", "learning-with-errors", "expander-graphs", "randomness-extractors", "additive-combinatorics", "pseudorandomness"]
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
