@@ -30,7 +30,7 @@ Seventeen unit tests bind the code to the mathematics: noiseless LWE falls to li
 ## Quick start
 
 ```bash
-git clone https://github.com/you/crypto-synthesis
+git clone https://github.com/Dekozak/Dynamical-Cryptography
 cd crypto-synthesis
 pip install -e ".[dev]"
 pytest                       # ~2 s: LWE, LLL, Weil, LHL, expander mixing
