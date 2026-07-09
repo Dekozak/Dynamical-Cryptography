@@ -4,8 +4,8 @@
 
 This is the third and capstone repository in a trilogy:
 
-1. [`recurrence-arithmetic`](https://github.com/you/recurrence-arithmetic) — dynamical recurrence proving theorems in additive number theory (Poincaré → Szemerédi → Sárközy).
-2. [`matrix-ml`](https://github.com/you/matrix-ml) — matrix theory powering big-data machine learning (Eckart–Young → randomized SVD → spectral clustering → PageRank).
+1. [`recurrence-arithmetic`](https://github.com/Dekozak/Kozak-DynamicalSystems.AdditiveNumberTheory) — dynamical recurrence proving theorems in additive number theory (Poincaré → Szemerédi → Sárközy).
+2. [`matrix-ml`](https://github.com/Dekozak/BigDataMachineLearning-MatrixTheory) — matrix theory powering big-data machine learning (Eckart–Young → randomized SVD → spectral clustering → PageRank).
 3. **`crypto-synthesis`** (this repo) — the claim that both of the above, and modern cryptography, are the same subject viewed from three angles.
 
 ## The thesis
